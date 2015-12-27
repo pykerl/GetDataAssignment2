@@ -4,21 +4,21 @@ This Codebook Describes the data, and any transformations and tidying of the dat
 Author: Paul Kerl  
 Date: 12/27/2015  
 
-###Dataset from  
+####Dataset from  
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip   
 downloaded on 12-27-2015  
 
-###Detailed dataset information:   
+####Detailed dataset information:   
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones  
   
 The run_analysis.R script performs the following steps to clean or "tidy" the dataset:  
 
-#Variables  
-##First Two Columns  
+###Variables  
+#####First Two Columns  
 Subject  
 Activity  
   
-##Remaining Columns (mean value for a given subject and activity, the variables are normalized from their original units to -1 to 1.)  
+#####Remaining Columns (mean value for a given subject and activity, the variables are normalized from their original units to -1 to 1.)  
 tBodyAccelerationMeanX	  
 tBodyAccelerationMeanY	  
 tBodyAccelerationMeanZ	  
