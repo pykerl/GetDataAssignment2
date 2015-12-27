@@ -1,4 +1,4 @@
-Getting and Cleaning Data -- Assignment 2
+Getting and Cleaning Data -- Course Project
 ====================================================
 Author: Paul Kerl  
 Date: 12/27/2015  
