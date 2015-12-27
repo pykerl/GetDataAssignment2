@@ -16,16 +16,19 @@ The run_analysis.R script performs the following steps to clean or "tidy" the da
 2.  Appends the subject and activity columns to the single dataset  
 3.  Extracts only the "std", "Mean" or "mean" columns along with the subject and activity columns from Step 1  
 4.  Labels the activities with descriptive labels vs. numbers  
-5.  Labels column names including simple string replacement for  
+5.  Labels column names including simple string replacement from the table below    
+6.  These new column names are applied to the original dataset and filtered back to the "std", "Mean" or "mean" columns  
+7.  The dataframe is finally summarized using a group by subject and activity, and the mean of the datapoints for each column   remaining for each subject and each activity is taken.  
+8. The dataset is written to final.txt  
+
+#### Strings replaced in Variable Names
   * Acc -> Acceleration  
   * Mag -> Magnitude  
   * Freq -> Frequency  
   * mean -> Mean  
   * std -> StandardDeviation  
-  * Both - and () are removed from variable names  
-6.  These new column names are applied to the original dataset and filtered back to the "std", "Mean" or "mean" columns  
-7.  The dataframe is finally summarized using a group by subject and activity, and the mean of the datapoints for each column   remaining for each subject and each activity is taken.  
-8. The dataset is written to final.txt  
+  * Both - and () are removed from variable names 
+
 
 ###Variables  
 #####First Two Columns  
